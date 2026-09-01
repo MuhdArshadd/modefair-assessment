@@ -30,6 +30,7 @@ export default defineConfig({
   reporter: 'html',
 
   use: {
+    video: 'on',
     screenshot: 'only-on-failure',
     trace: 'retain-on-failure',
   },
